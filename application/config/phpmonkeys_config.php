@@ -9,7 +9,7 @@ $config['site_url'] = 'http://example.com';
 // Set MD5 password true or false according to your server's configutations
 $config['pass_md5'] = false;
 
-//Services configuration
+//Services availability configuration
 $config['register_service'] = true;	$config['register_service_message'] = '<i>Registration Service is currently Disabled</i>';
 
 
