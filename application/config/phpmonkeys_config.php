@@ -13,12 +13,3 @@ $config['pass_md5'] = false;
 $config['register_service'] = true;	$config['register_service_message'] = '<i>Registration Service is currently Disabled</i>';
 $config['login_service'] = true;	$config['login_service_message'] = '<i>Login Service is currently Disabled</i>';
 
-
-//Home menu links edit here
-$config['home'] = $config['site_url'];
-$config['forum'] = '#';
-$config['downloads'] = '#';
-$config['login'] = '#';
-$config['register'] = 'register';
-$config['server_info'] = '#';
-$config['item_db'] = '#';
