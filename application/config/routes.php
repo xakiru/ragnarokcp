@@ -56,6 +56,8 @@ $route['translate_uri_dashes'] = FALSE;
 
 // Custom Routing Rules by Ankit
 $route['register'] = 'LogReg/register';
+$route['login'] = 'LogReg/login';
+$route['logout/(:any)'] = 'LogReg/logout/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -13,13 +13,11 @@
   <div class="wrapper">
      <div>
 	 <ul class="menu">
-	   <li><a href="<?=$this->config->item('home')?>">Home</a></li>
-	   <li><a href="<?=$this->config->item('forum')?>">Forum</a></li>
-	   <li><a href="<?=$this->config->item('downloads')?>">Downloads</a></li>
-	   <li><a href="<?=$this->config->item('login')?>">Login</a></li>
-	   <li><a href="<?=$this->config->item('register')?>">Register</li>
-	   <li><a href="<?=$this->config->item('i')?>">Item DB</a></li>
-	   <li id="server"><a href="<?=$this->config->item('server_info')?>">Server Info</a></li>   
+	 <?php
+	 foreach($navi as $menu){
+	 echo '<li><a href="'.$menu['link'].'">'.$menu['name'].'</a></li>';
+	 }
+	 ?>  
 	 </ul>
 	 </div>
   </div>
