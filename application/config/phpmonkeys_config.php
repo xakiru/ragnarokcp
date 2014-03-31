@@ -11,6 +11,7 @@ $config['pass_md5'] = false;
 
 //Services availability configuration
 $config['register_service'] = true;	$config['register_service_message'] = '<i>Registration Service is currently Disabled</i>';
+$config['login_service'] = true;	$config['login_service_message'] = '<i>Login Service is currently Disabled</i>';
 
 
 //Home menu links edit here
