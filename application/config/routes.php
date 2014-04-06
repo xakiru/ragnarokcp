@@ -82,6 +82,8 @@ $route['translate_uri_dashes'] = FALSE;
 $route['register'] = 'LogReg/register';
 $route['login'] = 'LogReg/login';
 $route['logout/(:any)'] = 'LogReg/logout/$1';
+$route['my_account'] = 'User/my_account';
+$route['change_password'] = 'User/change_password';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

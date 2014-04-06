@@ -1,4 +1,13 @@
 <?php
+/**
+ * PHPMonkey's Ragnarok CP
+ * An open source Ragnarok Control Panel.
+ * This file is part of PHPMonkey's Ragnarok Control Panel
+ * Project : PHPMonkey's Ragnarok CPanel
+ * Author  : A.P.
+ * Link    : https://github.com/phpmonkeys/ragnarokcp/
+ * Since   : V 1.0
+**/
 defined('BASEPATH') OR exit('No direct script access allowed');
 class LogReg extends CI_Controller {
 	
